@@ -1,0 +1,1598 @@
+DEBUG 2022-06-04 16:41:10,639 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-04 16:41:11,752 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-06-04 16:41:11,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.Web.Host.Startup.sampleWebHostModule, sample.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleWebCoreModule, sample.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleApplicationModule, sample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleCoreModule, sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.EntityFrameworkCore.sampleEntityFrameworkModule, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:11,829 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-06-04 16:41:12,737 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 16:41:12,737 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 16:41:12,737 [1    ] o.Configuration.LanguageManagementConfig - Converted sample (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 16:41:12,737 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 16:41:14,539 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: sample.EntityFrameworkCore.sampleDbContext, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 16:41:14,849 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-06-04 16:41:14,972 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-04 16:41:15,010 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-06-04 16:41:15,033 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: sample
+DEBUG 2022-06-04 16:41:15,050 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-04 16:41:15,072 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2022-06-04 16:41:15,079 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[sample.MultiTenancy.Tenant, sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[sample.Authorization.Users.User, sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2022-06-04 16:41:15,234 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2022-06-04 16:41:15,234 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-06-04 16:41:15,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Users.Dto.CreateUserDto
+DEBUG 2022-06-04 16:41:15,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Users.Dto.UserDto
+DEBUG 2022-06-04 16:41:15,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-06-04 16:41:15,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-06-04 16:41:15,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Roles.Dto.PermissionDto
+DEBUG 2022-06-04 16:41:15,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-06-04 16:41:15,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.MultiTenancy.Dto.TenantDto
+WARN  2022-06-04 16:41:19,206 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2022-06-04 16:41:19,997 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:20,459 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:22,509 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (55ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2022-06-04 16:41:22,548 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (73ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:41:23,089 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (32ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (Size = 32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpEditions] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [IsDeleted], [LastModificationTime], [LastModifierUserId], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [AbpEditions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,381 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,581 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (75ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,632 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,647 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,658 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,674 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,682 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,702 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,712 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,724 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,732 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,741 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,754 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,765 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,774 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,783 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,792 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,801 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,809 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,817 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,827 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,837 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,846 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,884 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,895 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:23,906 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpLanguages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:23,944 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE [a].[TenantId] IS NULL AND ([a].[Name] = N'Admin')
+INFO  2022-06-04 16:41:24,364 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (171ms) [Parameters=[@p0='?' (Size = 128), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 64), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int64), @p12='?' (Size = 32), @p13='?' (Size = 32), @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpRoles] ([ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [Description], [DisplayName], [IsDefault], [IsDeleted], [IsStatic], [LastModificationTime], [LastModifierUserId], [Name], [NormalizedName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+SELECT [Id]
+FROM [AbpRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:24,496 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND ([a].[TenantId] IS NULL AND ([a].[RoleId] = @__adminRoleForHost_Id_0))
+INFO  2022-06-04 16:41:24,927 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (324ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int64), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 128), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Int64), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 128), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int64), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (Size = 128), @p26='?' (DbType = Int32), @p27='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] bigint, [_Position] [int]);
+MERGE [AbpPermissions] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, 0),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13, 1),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20, 2),
+(@p21, @p22, @p23, @p24, @p25, @p26, @p27, 3)) AS i ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (i.[CreationTime], i.[CreatorUserId], i.[Discriminator], i.[IsGranted], i.[Name], i.[RoleId], i.[TenantId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [i].[Id] FROM @inserted0 i
+ORDER BY [i].[_Position];
+INFO  2022-06-04 16:41:24,980 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE [a].[TenantId] IS NULL AND ([a].[UserName] = N'admin')
+INFO  2022-06-04 16:41:25,440 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (184ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime2), @p7='?' (Size = 256), @p8='?' (Size = 328), @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime2), @p18='?' (Size = 64), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 128), @p22='?' (Size = 328), @p23='?' (Size = 32), @p24='?' (Size = 128), @p25='?' (Size = 64), @p26='?' (DbType = Int32), @p27='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUsers] ([AccessFailedCount], [AuthenticationSource], [ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [EmailConfirmationCode], [IsActive], [IsDeleted], [IsEmailConfirmed], [IsLockoutEnabled], [IsPhoneNumberConfirmed], [IsTwoFactorEnabled], [LastModificationTime], [LastModifierUserId], [LockoutEndDateUtc], [Name], [NormalizedEmailAddress], [NormalizedUserName], [Password], [PasswordResetCode], [PhoneNumber], [SecurityStamp], [Surname], [TenantId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+SELECT [Id]
+FROM [AbpUsers]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:25,505 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[TenantId], [a].[UserId], [a].[UserLinkId], [a].[UserName]
+FROM [AbpUserAccounts] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] = CAST(0 AS bit))) AND ([a].[TenantId] IS NULL AND ([a].[UserId] = @__eventData_Entity_Id_1))
+INFO  2022-06-04 16:41:25,762 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (143ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserAccounts] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [IsDeleted], [LastModificationTime], [LastModifierUserId], [TenantId], [UserId], [UserLinkId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpUserAccounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:25,927 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (95ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserRoles] ([CreationTime], [CreatorUserId], [RoleId], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [AbpUserRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:25,960 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:26,124 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (88ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpSettings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [AbpSettings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:26,198 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (35ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:26,218 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpSettings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [AbpSettings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:26,228 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 16:41:26,249 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpSettings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [Id]
+FROM [AbpSettings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:26,284 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE [a].[TenancyName] = N'Default'
+INFO  2022-06-04 16:41:26,297 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2022-06-04 16:41:26,594 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (186ms) [Parameters=[@p0='?' (Size = 1024), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (Size = 64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpTenants] ([ConnectionString], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EditionId], [IsActive], [IsDeleted], [LastModificationTime], [LastModifierUserId], [Name], [TenancyName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpTenants]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:26,675 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (21ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[Name] = N'Admin')
+INFO  2022-06-04 16:41:26,701 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 128), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 64), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int64), @p12='?' (Size = 32), @p13='?' (Size = 32), @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpRoles] ([ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [Description], [DisplayName], [IsDefault], [IsDeleted], [IsStatic], [LastModificationTime], [LastModifierUserId], [Name], [NormalizedName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+SELECT [Id]
+FROM [AbpRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:26,800 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (71ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND (([a].[TenantId] = @___tenantId_0) AND ([a].[RoleId] = @__adminRole_Id_1))
+INFO  2022-06-04 16:41:26,871 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (36ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpPermissions] ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [AbpPermissions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:26,881 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpPermissions] ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [AbpPermissions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:26,888 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpPermissions] ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [AbpPermissions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:26,945 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (25ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[UserName] = N'admin')
+INFO  2022-06-04 16:41:26,994 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime2), @p7='?' (Size = 256), @p8='?' (Size = 328), @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime2), @p18='?' (Size = 64), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 128), @p22='?' (Size = 328), @p23='?' (Size = 32), @p24='?' (Size = 128), @p25='?' (Size = 64), @p26='?' (DbType = Int32), @p27='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUsers] ([AccessFailedCount], [AuthenticationSource], [ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [EmailConfirmationCode], [IsActive], [IsDeleted], [IsEmailConfirmed], [IsLockoutEnabled], [IsPhoneNumberConfirmed], [IsTwoFactorEnabled], [LastModificationTime], [LastModifierUserId], [LockoutEndDateUtc], [Name], [NormalizedEmailAddress], [NormalizedUserName], [Password], [PasswordResetCode], [PhoneNumber], [SecurityStamp], [Surname], [TenantId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+SELECT [Id]
+FROM [AbpUsers]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:27,020 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (18ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_TenantId_0='?' (DbType = Int32), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[TenantId], [a].[UserId], [a].[UserLinkId], [a].[UserName]
+FROM [AbpUserAccounts] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] = CAST(0 AS bit))) AND (([a].[TenantId] = @__eventData_Entity_TenantId_0) AND ([a].[UserId] = @__eventData_Entity_Id_1))
+INFO  2022-06-04 16:41:27,032 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserAccounts] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [IsDeleted], [LastModificationTime], [LastModifierUserId], [TenantId], [UserId], [UserLinkId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+SELECT [Id]
+FROM [AbpUserAccounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:27,066 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserRoles] ([CreationTime], [CreatorUserId], [RoleId], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [AbpUserRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:27,343 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:27,392 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[Icon], [a].[IsDeleted], [a].[IsDisabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId]
+FROM [AbpLanguages] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] = CAST(0 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL)
+INFO  2022-06-04 16:41:27,430 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:27,462 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ([a].[UserId] IS NULL AND [a].[TenantId] IS NULL)
+INFO  2022-06-04 16:41:27,502 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2022-06-04 16:41:27,776 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:27,787 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:41:29,743 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2022-06-04 16:41:29,749 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2022-06-04 16:41:29,754 [1    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\king\Downloads\sample\7.1.0\aspnet-core\src\sample.Web.Host
+INFO  2022-06-04 16:41:29,853 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2022-06-04 16:41:30,739 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'sample.Web.Host.Controllers.HomeController.Index (sample.Web.Host)'
+INFO  2022-06-04 16:41:30,826 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller sample.Web.Host.Controllers.HomeController (sample.Web.Host).
+INFO  2022-06-04 16:41:30,903 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:31,281 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (179ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:31,392 [orker] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-04 16:41:31,415 [orker] c.Infrastructure.ControllerActionInvoker - Executed action sample.Web.Host.Controllers.HomeController.Index (sample.Web.Host) in 570.1427ms
+INFO  2022-06-04 16:41:31,458 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'sample.Web.Host.Controllers.HomeController.Index (sample.Web.Host)'
+INFO  2022-06-04 16:41:31,578 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2022-06-04 16:41:31,605 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 1755.2042ms
+INFO  2022-06-04 16:41:32,566 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 970.9027ms
+INFO  2022-06-04 16:41:32,576 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+INFO  2022-06-04 16:41:32,594 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - -
+INFO  2022-06-04 16:41:32,598 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - -
+INFO  2022-06-04 16:41:32,634 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 39.7801ms
+INFO  2022-06-04 16:41:32,698 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+INFO  2022-06-04 16:41:32,943 [orker] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\king\Downloads\sample\7.1.0\aspnet-core\src\sample.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2022-06-04 16:41:32,959 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - - 200 8029 application/javascript 358.8443ms
+INFO  2022-06-04 16:41:32,971 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:33,011 [orker] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\king\Downloads\sample\7.1.0\aspnet-core\src\sample.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2022-06-04 16:41:33,017 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:41:33,028 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - - 200 3697 application/javascript 423.0453ms
+INFO  2022-06-04 16:41:33,073 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 412.8116ms
+INFO  2022-06-04 16:41:33,324 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2022-06-04 16:41:33,334 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'sample.Web.Host.Controllers.AntiForgeryController.SetCookie (sample.Web.Host)'
+INFO  2022-06-04 16:41:33,346 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller sample.Web.Host.Controllers.AntiForgeryController (sample.Web.Host).
+INFO  2022-06-04 16:41:33,391 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:33,423 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2022-06-04 16:41:33,433 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 16:41:33,469 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-06-04 16:41:34,041 [orker] c.Infrastructure.ControllerActionInvoker - Executed action sample.Web.Host.Controllers.AntiForgeryController.SetCookie (sample.Web.Host) in 687.8414ms
+INFO  2022-06-04 16:41:34,045 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'sample.Web.Host.Controllers.AntiForgeryController.SetCookie (sample.Web.Host)'
+INFO  2022-06-04 16:41:34,053 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 728.0442ms
+INFO  2022-06-04 16:41:34,272 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 714.6985ms
+INFO  2022-06-04 16:41:38,038 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:38,054 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:41:43,106 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:43,139 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:41:48,165 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:48,177 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:41:53,211 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:53,235 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:41:58,279 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:41:58,324 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:42:03,346 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:42:03,362 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:42:08,382 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:42:08,421 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (21ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-04 16:42:13,497 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-04 16:42:13,514 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+DEBUG 2022-06-04 17:46:50,376 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-04 17:46:51,403 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-06-04 17:46:51,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.Web.Host.Startup.sampleWebHostModule, sample.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleWebCoreModule, sample.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleApplicationModule, sample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleCoreModule, sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.EntityFrameworkCore.sampleEntityFrameworkModule, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:51,466 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-06-04 17:46:52,198 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 17:46:52,199 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 17:46:52,199 [1    ] o.Configuration.LanguageManagementConfig - Converted sample (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 17:46:52,199 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 17:46:53,804 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: sample.EntityFrameworkCore.sampleDbContext, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:46:54,189 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-06-04 17:46:54,325 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-04 17:46:54,358 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+FATAL 2022-06-04 17:46:54,718 [1    ] Abp.AbpBootstrapper                      - Abp.AbpException: A dictionary can not contain same key twice. There are some duplicated names: Name
+   at Abp.Localization.Dictionaries.Xml.XmlLocalizationDictionary.BuildFomXmlString(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.CreateXmlLocalizationDictionary(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.InitializeDictionaries()
+   at Abp.Localization.Dictionaries.LocalizationDictionaryProviderBase.Initialize(String sourceName)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.Initialize(String sourceName)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.MultiTenantLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.LocalizationManager.InitializeSources()
+   at Abp.Localization.LocalizationManager.Initialize()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+Abp.AbpException: A dictionary can not contain same key twice. There are some duplicated names: Name
+   at Abp.Localization.Dictionaries.Xml.XmlLocalizationDictionary.BuildFomXmlString(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.CreateXmlLocalizationDictionary(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.InitializeDictionaries()
+   at Abp.Localization.Dictionaries.LocalizationDictionaryProviderBase.Initialize(String sourceName)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.Initialize(String sourceName)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.MultiTenantLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.LocalizationManager.InitializeSources()
+   at Abp.Localization.LocalizationManager.Initialize()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+DEBUG 2022-06-04 17:57:29,267 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-04 17:57:29,423 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-06-04 17:57:29,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.Web.Host.Startup.sampleWebHostModule, sample.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleWebCoreModule, sample.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleApplicationModule, sample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleCoreModule, sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.EntityFrameworkCore.sampleEntityFrameworkModule, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:29,466 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-06-04 17:57:29,625 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 17:57:29,625 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 17:57:29,625 [1    ] o.Configuration.LanguageManagementConfig - Converted sample (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 17:57:29,625 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 17:57:30,754 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: sample.EntityFrameworkCore.sampleDbContext, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 17:57:31,181 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-06-04 17:57:31,315 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-04 17:57:31,342 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+FATAL 2022-06-04 17:57:31,432 [1    ] Abp.AbpBootstrapper                      - Abp.AbpException: A dictionary can not contain same key twice. There are some duplicated names: Name
+   at Abp.Localization.Dictionaries.Xml.XmlLocalizationDictionary.BuildFomXmlString(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.CreateXmlLocalizationDictionary(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.InitializeDictionaries()
+   at Abp.Localization.Dictionaries.LocalizationDictionaryProviderBase.Initialize(String sourceName)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.Initialize(String sourceName)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.MultiTenantLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.LocalizationManager.InitializeSources()
+   at Abp.Localization.LocalizationManager.Initialize()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+Abp.AbpException: A dictionary can not contain same key twice. There are some duplicated names: Name
+   at Abp.Localization.Dictionaries.Xml.XmlLocalizationDictionary.BuildFomXmlString(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.CreateXmlLocalizationDictionary(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.InitializeDictionaries()
+   at Abp.Localization.Dictionaries.LocalizationDictionaryProviderBase.Initialize(String sourceName)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.Initialize(String sourceName)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.MultiTenantLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.LocalizationManager.InitializeSources()
+   at Abp.Localization.LocalizationManager.Initialize()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+DEBUG 2022-06-04 18:02:32,789 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-04 18:02:32,956 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-06-04 18:02:32,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.Web.Host.Startup.sampleWebHostModule, sample.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:32,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleWebCoreModule, sample.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:32,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleApplicationModule, sample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,000 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleCoreModule, sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,003 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.EntityFrameworkCore.sampleEntityFrameworkModule, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:33,014 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-06-04 18:02:33,203 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 18:02:33,203 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 18:02:33,203 [1    ] o.Configuration.LanguageManagementConfig - Converted sample (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 18:02:33,203 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 18:02:34,294 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: sample.EntityFrameworkCore.sampleDbContext, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:02:34,921 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-06-04 18:02:35,045 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-04 18:02:35,066 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+FATAL 2022-06-04 18:02:35,155 [1    ] Abp.AbpBootstrapper                      - Abp.AbpException: A dictionary can not contain same key twice. There are some duplicated names: Name
+   at Abp.Localization.Dictionaries.Xml.XmlLocalizationDictionary.BuildFomXmlString(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.CreateXmlLocalizationDictionary(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.InitializeDictionaries()
+   at Abp.Localization.Dictionaries.LocalizationDictionaryProviderBase.Initialize(String sourceName)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.Initialize(String sourceName)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.MultiTenantLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.LocalizationManager.InitializeSources()
+   at Abp.Localization.LocalizationManager.Initialize()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+Abp.AbpException: A dictionary can not contain same key twice. There are some duplicated names: Name
+   at Abp.Localization.Dictionaries.Xml.XmlLocalizationDictionary.BuildFomXmlString(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.CreateXmlLocalizationDictionary(String xmlString)
+   at Abp.Localization.Dictionaries.Xml.XmlEmbeddedFileLocalizationDictionaryProvider.InitializeDictionaries()
+   at Abp.Localization.Dictionaries.LocalizationDictionaryProviderBase.Initialize(String sourceName)
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.Initialize(String sourceName)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.MultiTenantLocalizationSource.Initialize(ILocalizationConfiguration configuration, IIocResolver iocResolver)
+   at Abp.Localization.LocalizationManager.InitializeSources()
+   at Abp.Localization.LocalizationManager.Initialize()
+   at Abp.AbpKernelModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+DEBUG 2022-06-04 18:08:07,691 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-04 18:08:07,843 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-06-04 18:08:07,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.Web.Host.Startup.sampleWebHostModule, sample.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleWebCoreModule, sample.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleApplicationModule, sample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.sampleCoreModule, sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: sample.EntityFrameworkCore.sampleEntityFrameworkModule, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=7.2.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:07,888 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-06-04 18:08:08,073 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 18:08:08,073 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 18:08:08,073 [1    ] o.Configuration.LanguageManagementConfig - Converted sample (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 18:08:08,073 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-06-04 18:08:09,276 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: sample.EntityFrameworkCore.sampleDbContext, sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-04 18:08:09,833 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-06-04 18:08:09,979 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-04 18:08:10,032 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-06-04 18:08:10,048 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: sample
+DEBUG 2022-06-04 18:08:10,061 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-04 18:08:10,077 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2022-06-04 18:08:10,084 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[sample.MultiTenancy.Tenant, sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[sample.Authorization.Users.User, sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2022-06-04 18:08:10,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2022-06-04 18:08:10,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-06-04 18:08:10,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Users.Dto.CreateUserDto
+DEBUG 2022-06-04 18:08:10,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Users.Dto.UserDto
+DEBUG 2022-06-04 18:08:10,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-06-04 18:08:10,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-06-04 18:08:10,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Services.Dto.TeamDto
+DEBUG 2022-06-04 18:08:10,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.Roles.Dto.PermissionDto
+DEBUG 2022-06-04 18:08:10,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-06-04 18:08:10,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - sample.MultiTenancy.Dto.TenantDto
+WARN  2022-06-04 18:08:14,642 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2022-06-04 18:08:15,505 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:15,505 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:17,378 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2022-06-04 18:08:17,478 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (160ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:08:17,799 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:19,277 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (47ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,298 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,315 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,321 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,328 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,343 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,352 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,358 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,368 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,374 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,380 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,387 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,394 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = @__language_Name_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:19,455 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE ([a].[TenantId] IS NULL) AND ([a].[Name] = N'Admin')
+INFO  2022-06-04 18:08:19,624 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (31ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND (([a].[TenantId] IS NULL) AND ([a].[RoleId] = @__adminRoleForHost_Id_0))
+WARN  2022-06-04 18:08:19,890 [1    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:20,156 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (76ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpPermissions] ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [AbpPermissions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+WARN  2022-06-04 18:08:20,713 [1    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:20,762 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE ([a].[TenantId] IS NULL) AND ([a].[UserName] = N'admin')
+INFO  2022-06-04 18:08:21,355 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (55ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND ([a].[TenantId] IS NULL)) AND ([a].[UserId] IS NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:21,363 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND ([a].[TenantId] IS NULL)) AND ([a].[UserId] IS NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2022-06-04 18:08:21,372 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE (([a].[Name] = @__name_0) AND ([a].[TenantId] IS NULL)) AND ([a].[UserId] IS NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+WARN  2022-06-04 18:08:21,413 [1    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:21,503 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (62ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE [a].[TenancyName] = N'Default'
+INFO  2022-06-04 18:08:21,635 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[Name] = N'Admin')
+INFO  2022-06-04 18:08:21,658 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE ([a].[Discriminator] = N'RolePermissionSetting') AND (([a].[TenantId] = @___tenantId_0) AND ([a].[RoleId] = @__adminRole_Id_1))
+WARN  2022-06-04 18:08:21,683 [1    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:21,704 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpPermissions] ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [AbpPermissions]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+WARN  2022-06-04 18:08:21,711 [1    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:21,764 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE ([a].[TenantId] = @___tenantId_0) AND ([a].[UserName] = N'admin')
+WARN  2022-06-04 18:08:21,767 [1    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:21,999 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:22,053 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[Icon], [a].[IsDeleted], [a].[IsDisabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId]
+FROM [AbpLanguages] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] = CAST(0 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR ([a].[TenantId] IS NULL))
+WARN  2022-06-04 18:08:22,109 [1    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:22,133 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:22,166 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (17ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[TenantId] IS NULL)) AND (([a].[UserId] IS NULL) AND ([a].[TenantId] IS NULL))
+WARN  2022-06-04 18:08:22,217 [1    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:22,231 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2022-06-04 18:08:23,537 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2022-06-04 18:08:23,540 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2022-06-04 18:08:23,544 [1    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\king\Downloads\sample\7.1.0\aspnet-core\src\sample.Web.Host
+INFO  2022-06-04 18:08:23,584 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2022-06-04 18:08:23,732 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:23,769 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:08:23,772 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:23,842 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'sample.Web.Host.Controllers.HomeController.Index (sample.Web.Host)'
+INFO  2022-06-04 18:08:23,919 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller sample.Web.Host.Controllers.HomeController (sample.Web.Host).
+INFO  2022-06-04 18:08:24,048 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:24,314 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (87ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 18:08:24,374 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-04 18:08:24,392 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action sample.Web.Host.Controllers.HomeController.Index (sample.Web.Host) in 460.6446ms
+INFO  2022-06-04 18:08:24,396 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'sample.Web.Host.Controllers.HomeController.Index (sample.Web.Host)'
+INFO  2022-06-04 18:08:24,484 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2022-06-04 18:08:24,498 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 914.1118ms
+INFO  2022-06-04 18:08:25,131 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 567.9004ms
+INFO  2022-06-04 18:08:25,229 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+INFO  2022-06-04 18:08:25,309 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - -
+INFO  2022-06-04 18:08:25,316 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+INFO  2022-06-04 18:08:25,359 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 184.6848ms
+INFO  2022-06-04 18:08:25,363 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - -
+INFO  2022-06-04 18:08:25,402 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2022-06-04 18:08:25,417 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2022-06-04 18:08:25,429 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - - 304 - application/javascript 236.1710ms
+INFO  2022-06-04 18:08:25,454 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - - 304 - application/javascript 72.8368ms
+INFO  2022-06-04 18:08:25,591 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 243.3855ms
+INFO  2022-06-04 18:08:25,627 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2022-06-04 18:08:25,640 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'sample.Web.Host.Controllers.AntiForgeryController.SetCookie (sample.Web.Host)'
+INFO  2022-06-04 18:08:25,657 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller sample.Web.Host.Controllers.AntiForgeryController (sample.Web.Host).
+INFO  2022-06-04 18:08:25,718 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:25,729 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2022-06-04 18:08:25,754 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-04 18:08:25,767 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-06-04 18:08:26,040 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action sample.Web.Host.Controllers.AntiForgeryController.SetCookie (sample.Web.Host) in 379.2921ms
+INFO  2022-06-04 18:08:26,045 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'sample.Web.Host.Controllers.AntiForgeryController.SetCookie (sample.Web.Host)'
+INFO  2022-06-04 18:08:26,052 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 427.0155ms
+INFO  2022-06-04 18:08:26,106 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 381.5100ms
+INFO  2022-06-04 18:08:28,808 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:28,820 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:08:28,821 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:33,852 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:33,867 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:08:33,868 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:38,881 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:38,890 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:08:38,891 [9    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:43,904 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:43,937 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (28ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:08:43,938 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:48,966 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:48,982 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:08:48,983 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:54,017 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:54,027 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:08:54,028 [19   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:08:59,042 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:08:59,051 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:08:59,052 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:04,084 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:04,113 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:04,115 [19   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:09,136 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:09,147 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:09,148 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:14,179 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:14,193 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:14,193 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:19,224 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:19,235 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:19,235 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:24,275 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:24,292 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:24,294 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:29,305 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:29,316 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:29,317 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:34,337 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:34,345 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:34,345 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:39,370 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:39,385 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:39,386 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:44,422 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:44,444 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:44,444 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:49,467 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:49,477 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:49,478 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:54,517 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:54,532 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:54,532 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:09:59,608 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:09:59,632 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:09:59,632 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:04,644 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:04,651 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:04,651 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:09,670 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:09,688 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:09,689 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:14,709 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:14,717 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:14,719 [19   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:19,756 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:19,771 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:19,772 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:24,787 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:24,794 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:24,795 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:29,820 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:29,832 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:29,833 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:34,857 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:34,867 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:34,868 [19   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:39,890 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:39,911 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:39,912 [19   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:44,925 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:44,934 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:44,935 [19   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:49,959 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:49,971 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:49,972 [19   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:10:55,008 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:10:55,029 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:10:55,029 [19   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:00,040 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:00,054 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:00,055 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:05,089 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:05,104 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:05,105 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:10,142 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:10,165 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:10,166 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:15,215 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:15,237 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:15,238 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:20,272 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:20,300 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:20,303 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:25,371 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:25,387 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:25,389 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:30,421 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:30,433 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:30,433 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:35,483 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:35,494 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:35,495 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:40,520 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:40,528 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:40,529 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:45,560 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:45,570 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:45,571 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:50,580 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:50,588 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:50,589 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:11:55,611 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:11:55,622 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:11:55,623 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:00,637 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:00,641 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:00,642 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:05,655 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:05,661 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:05,661 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:10,683 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:10,688 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:10,689 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:13,684 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Team/GetAll - -
+INFO  2022-06-04 18:12:13,758 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'sample.Services.TeamAppService.GetAllAsync (sample.Application)'
+INFO  2022-06-04 18:12:13,805 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Team"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[sample.Services.Dto.TeamDto]] GetAllAsync(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller sample.Services.TeamAppService (sample.Application).
+INFO  2022-06-04 18:12:14,536 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:14,576 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (15ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @___sourceName_0='?' (Size = 128), @__CultureInfo_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[Key], [a].[LanguageName], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Source], [a].[TenantId], [a].[Value]
+FROM [AbpLanguageTexts] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[TenantId] IS NULL)) AND (([a].[Source] = @___sourceName_0) AND ([a].[LanguageName] = @__CultureInfo_Name_1))
+INFO  2022-06-04 18:12:14,601 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:14,617 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+WARN  2022-06-04 18:12:14,625 [15   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method1163(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2022-06-04 18:12:14,638 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-06-04 18:12:14,653 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action sample.Services.TeamAppService.GetAllAsync (sample.Application) in 843.4112ms
+INFO  2022-06-04 18:12:14,657 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'sample.Services.TeamAppService.GetAllAsync (sample.Application)'
+INFO  2022-06-04 18:12:14,664 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Team/GetAll - - - 401 205 application/json;+charset=utf-8 977.7947ms
+INFO  2022-06-04 18:12:15,707 [24   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:15,715 [24   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:15,716 [24   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:20,743 [15   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:20,751 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:20,752 [15   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:25,763 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:25,772 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:25,773 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:27,839 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Team/GetAll - -
+INFO  2022-06-04 18:12:27,867 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'sample.Services.TeamAppService.GetAllAsync (sample.Application)'
+INFO  2022-06-04 18:12:27,875 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Team"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[sample.Services.Dto.TeamDto]] GetAllAsync(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller sample.Services.TeamAppService (sample.Application).
+INFO  2022-06-04 18:12:27,893 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:27,908 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+WARN  2022-06-04 18:12:27,923 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method1163(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2022-06-04 18:12:27,937 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-06-04 18:12:27,948 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action sample.Services.TeamAppService.GetAllAsync (sample.Application) in 62.9391ms
+INFO  2022-06-04 18:12:27,956 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'sample.Services.TeamAppService.GetAllAsync (sample.Application)'
+INFO  2022-06-04 18:12:27,980 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Team/GetAll - - - 401 205 application/json;+charset=utf-8 121.4550ms
+INFO  2022-06-04 18:12:30,790 [6    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:30,799 [6    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:30,800 [6    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:35,818 [15   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:35,826 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:35,828 [15   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:40,858 [15   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:40,899 [15   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (20ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:40,900 [15   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:45,941 [24   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:45,950 [24   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:45,951 [24   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:50,984 [24   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:50,990 [24   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:50,991 [24   ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:12:56,003 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:12:56,014 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:12:56,014 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
+INFO  2022-06-04 18:13:01,023 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.5 initialized 'sampleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+INFO  2022-06-04 18:13:01,030 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+WARN  2022-06-04 18:13:01,031 [4    ] c.Auditing.HttpContextClientInfoProvider - System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.Net.Dns.GetHostEntry(IPAddress address)
+   at Abp.AspNetCore.Mvc.Auditing.HttpContextClientInfoProvider.GetComputerName()
